@@ -37,7 +37,12 @@ void ofApp::keyPressed(int key){
 
     if (key == 'i') 
           { 
- 
+			  cout << "'i' has been pressed" << endl;
+			  
+		}else{
+			
+			  cout << "A key has been pressed" << endl;
+			  	  
              /*  
                 (B)
 
