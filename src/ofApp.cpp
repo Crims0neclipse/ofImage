@@ -16,6 +16,8 @@ void ofApp::setup(){
 
        n =  3 * img.getWidth() * img.getHeight();
      */
+     
+     cout << "Hello from Setup"<< endl;
 }
 
 
