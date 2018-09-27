@@ -11,11 +11,11 @@ void ofApp::setup(){
      x = abs(img.getWidth() - ofGetWidth())/2;
      y = abs(img.getHeight() - ofGetHeight())/2;
 
-     /*
-       (A)
+     
+       //(A)
 
        n =  3 * img.getWidth() * img.getHeight();
-     */
+     
      
      cout << "Hello from Setup"<< endl;
 }
@@ -43,12 +43,12 @@ void ofApp::keyPressed(int key){
 			
 			  cout << "A key has been pressed" << endl;
 			  	  
-             /*  
-                (B)
+               
+               //(B)
 
                 for(int i = 0 ;i < n; i++)
                  img.setColor(i, img.getColor(i).invert());
-             */ 
+             
            img.update();
            }//end if
 }
